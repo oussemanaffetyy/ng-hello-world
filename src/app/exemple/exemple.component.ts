@@ -2,11 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-exemple',
-  template: `
-    <p>
-      exemple works!
-    </p>
-  `,
+  templateUrl: "./exemple.component.html",
   styles: [
   ]
 })

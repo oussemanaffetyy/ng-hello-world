@@ -2,12 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-formulaire',
-  template: `
-    <p>
-      <label for="nom">Saisie Nom :</label>
-      <input type="text" id="nom">
-    </p>
-  `,
+  templateUrl:'./formulaire.component.html' ,
   styles: [],
 })
 export class FormulaireComponent {

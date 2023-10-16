@@ -4,8 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ExempleComponent } from './exemple/exemple.component';
-import { FormulaireComponent } from './formulaire/formulaire.component';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {FormulaireComponent} from './formulaire/formulaire.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +14,9 @@ import { FormulaireComponent } from './formulaire/formulaire.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
